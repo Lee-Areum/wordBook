@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/word_book_navigation"
+    app:startDestination="@id/categoryListFragement">
+
+    <fragment
+        android:id="@+id/categoryListFragement"
+        android:name="com.memory.wordbook.CategoryListFragement"
+        android:label="fragment_category_list_fragement"
+        tools:layout="@layout/fragment_category_list_fragement" >
+        <action
+            android:id="@+id/action_categoryListFragement_to_memorizeFragment"
+            app:destination="@id/memorizeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/memorizeFragment"
+        android:name="com.memory.wordbook.MemorizeFragment"
+        android:label="fragment_memorize"
+        tools:layout="@layout/fragment_memorize" />
+</navigation>
