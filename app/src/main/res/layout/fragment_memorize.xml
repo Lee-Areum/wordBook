@@ -3,9 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MemorizeFragment">
+    tools:context=".view.MemorizeFragment">
 
     <TextView
+        android:id="@+id/tv_memorize"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="MemeorizeFragment" />

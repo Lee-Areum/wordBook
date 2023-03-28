@@ -1,4 +1,4 @@
-package com.memory.wordbook.base
+package com.memory.wordbook.view.base
 
 import android.os.Bundle
 import android.view.LayoutInflater

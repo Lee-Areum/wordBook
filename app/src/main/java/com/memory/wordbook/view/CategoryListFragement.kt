@@ -1,9 +1,10 @@
-package com.memory.wordbook
+package com.memory.wordbook.view
 
 import android.os.Bundle
 import android.view.View
 import androidx.navigation.Navigation
-import com.memory.wordbook.base.BaseFragment
+import com.memory.wordbook.R
+import com.memory.wordbook.view.base.BaseFragment
 import com.memory.wordbook.databinding.FragmentCategoryListFragementBinding
 
 class CategoryListFragement : BaseFragment<FragmentCategoryListFragementBinding>(

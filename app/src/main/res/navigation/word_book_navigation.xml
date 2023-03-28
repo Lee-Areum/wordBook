@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/categoryListFragement"
-        android:name="com.memory.wordbook.CategoryListFragement"
+        android:name="com.memory.wordbook.view.CategoryListFragement"
         android:label="fragment_category_list_fragement"
         tools:layout="@layout/fragment_category_list_fragement" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/memorizeFragment"
-        android:name="com.memory.wordbook.MemorizeFragment"
+        android:name="com.memory.wordbook.view.MemorizeFragment"
         android:label="fragment_memorize"
         tools:layout="@layout/fragment_memorize" />
 </navigation>
